@@ -1,0 +1,34 @@
+body{
+    overflow-x: hidden;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    width: 100%;
+    display: flex;
+    flex-flow: wrap row;
+    
+
+}
+
+
+#imageList,#selectedImages{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    text-decoration: none;
+    list-style: none;
+    cursor: pointer;
+
+}
+
+img{
+    transition: 0.5s ease-in-out;
+}
+img:hover{
+    scale: 1.05;
+}
+
+#resultMessage{
+    width: 100%;
+}
