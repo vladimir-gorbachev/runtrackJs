@@ -42,8 +42,7 @@ document.getElementById("login-form").addEventListener("submit", function(e) {
 
     if (user) {
         alert("Connexion réussie !");
-        // Rediriger vers une autre page, par exemple
-        // window.location.href = "dashboard.html";
+        window.location.href = "calendar.html";
     } else {
         alert("Email ou mot de passe incorrect.");
     }
